@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Builder</title>
+    
+    <!---Для IE отображать страницу по максимально новым стандартам------>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!---Отображать страницу в масштабе 100%-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Нормализация стилей для тега link-->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+   
+    <!--Собственные стили-->
+    <link rel="stylesheet" href="css/main.css">
+    
+     <!--Подключение шрифтов-->
+    <link href="" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/script.js" defer></script>
+
+</head>
+    <body>
+         
+        <header class="header" id="header">
+            <div class="nav">
+                <div class="container container_nav">
+                    <div class="nav__logo">Blu<span style="color:#4bcaff">e</span>asy</div> 
+                    <nav class="row nav__row">
+                        <ul class="nav__menu__list">
+                            <li class="nav__menu__list__item"><a class="nav__menu__list__ref" href="#">Home</a>
+                                <ul class="nav__menu__list_drop">
+                                    <li class="nav__menu__list__item_drop"><a class="nav__menu__list__item__ref_drop" href="#">Home</a></li>
+                                    <li class="nav__menu__list__item_drop"><a class="nav__menu__list__item__ref_drop"  href="#">Home</a></li>
+                                    <li class="nav__menu__list__item_drop"><a class="nav__menu__list__item__ref_drop" href="#">Home</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__menu__list__item"><a class="nav__menu__list__ref" href="#">Service</a>
+                                <ul class="nav__menu__list_drop">
+                                    <li class="nav__menu__list__item_drop"><a class="nav__menu__list__item__ref_drop" href="#">Home</a></li>
+                                    <li class="nav__menu__list__item_drop"><a class="nav__menu__list__item__ref_drop"  href="#">Home</a></li>
+                                    <li class="nav__menu__list__item_drop"><a class="nav__menu__list__item__ref_drop" href="#">Home</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__menu__list__item"><a class="nav__menu__list__ref" href="#">Features</a>
+                                <ul class="nav__menu__list_drop">
+                                    <li class="nav__menu__list__item_drop"><a class="nav__menu__list__item__ref_drop" href="#">Home</a></li>
+                                    <li class="nav__menu__list__item_drop"><a class="nav__menu__list__item__ref_drop"  href="#">Home</a></li>
+                                    <li class="nav__menu__list__item_drop"><a class="nav__menu__list__item__ref_drop" href="#">Home</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__menu__list__item"><a class="nav__menu__list__ref" href="#">Portfolio</a>
+                                <ul class="nav__menu__list_drop">
+                                    <li class="nav__menu__list__item_drop"><a class="nav__menu__list__item__ref_drop" href="#">Home</a></li>
+                                    <li class="nav__menu__list__item_drop"><a class="nav__menu__list__item__ref_drop"  href="#">Home</a></li>
+                                    <li class="nav__menu__list__item_drop"><a class="nav__menu__list__item__ref_drop" href="#">Home</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__menu__list__item"><a class="nav__menu__list__ref" href="#">Contact</a>
+                                <ul class="nav__menu__list_drop">
+                                        <li class="nav__menu__list__item_drop"><a class="nav__menu__list__item__ref_drop" href="#">Home</a></li>
+                                        <li class="nav__menu__list__item_drop"><a class="nav__menu__list__item__ref_drop"  href="#">Home</a></li>
+                                        <li class="nav__menu__list__item_drop"><a class="nav__menu__list__item__ref_drop" href="#">Home</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav__menu__list__item__icon"><a class="nav__menu__list__icon" href="#">&#9776;</a></li>
+                        </ul>
+                    </nav>   
+                    </div>
+                </div>  
+            
+                    <div class="header__title__text__wrapper">
+                            <p class="header__title__text">“I’m looking for the unexpected.</p>
+                            <p class="header__title__text">I’m looking for things I’ve never seen before.”</p>
+                    </div>  
+        </header>               
+        
+          
+  
+        
+        <!--SERVICES-->
+        <section class="services">
+            <div class="container container_services">
+               <div class="services__wrapper">
+                <p class="name services__name"><span class="underline">Ser</span>vices</p>
+                    <div class="row services__row">
+                        <div class="col-4">
+                            <div class="services__img">
+                            <img src="./img/coffee.png">
+                            </div>
+                            <p class="services__options__name">COFFEE</p>
+                            <p class="services__options__text">Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
+                        </div>
+                    
+                        <div class="col-4 ">
+                            <div class="services__img">
+                            <img src="./img/instant.png">
+                            </div> 
+                            <p class="services__options__name">Instant</p>
+                            <p class="services__options__text">Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
+                        </div>
+                                
+                        <div class="col-4">
+                            <div class="services__img">
+                            <img src="./img/serious.png">
+                            </div>    
+                            <p class="services__options__name">Serious</p>
+                            <p class="services__options__text">Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
+                        </div>
+                    
+                        <div class="col-4">
+                            <div class="services__img">
+                            <img src="./img/frame.png">
+                            </div>
+                            <p class="services__options__name">Frame</p>
+                            <p class="services__options__text">Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
+                        </div> 
+                </div>        
+            </div>   
+        </div>
+        </section>  
+       
+    <!--------------PORTFOLIO------------------->
+        <section class="portfolio">
+            <div class="container container_portfolio">
+                <div class="portfolio__nav">
+                    <div class="name portfolio__nav__name"><span class="portfolio__nav__name_underline">Por</span>tfolio</div>
+                    <div class="portfolio__nav__menu">
+                        <ul class="portfolio__nav__menu__list">
+                            <li class="portfolio__nav__menu__list__item"><a class="portfolio__nav__menu__list__ref">All</a></li>
+                            <li class="portfolio__nav__menu__list__item"><a class="portfolio__nav__menu__list__ref">Panoramas</a></li>
+                            <li class="portfolio__nav__menu__list__item"><a class="portfolio__nav__menu__list__ref">Portraits</a></li>
+                            <li class="portfolio__nav__menu__list__item"><a class="portfolio__nav__menu__list__ref">Macro</a></li>
+                            <li class="portfolio__nav__menu__list__item"><a class="portfolio__nav__menu__list__ref">Journal</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="portfolio__gallery">
+                    <a class="portfolio__gallery__ref">
+                        <img class="portfolio__gallery__pic" src="./img/pic4.png" alt="Picture 1">
+                        <span class="portfolio__gallery__icon"><i class="fa fa-plus"></i></span>
+                        <div class="portfolio__gallery__pic_hover"></div>
+                    </a>
+                    <a class="portfolio__gallery__ref">
+                        <img class="portfolio__gallery__pic" src="./img/pic2.png" alt="Picture 2">
+                        <span class="portfolio__gallery__icon"><i class="fa fa-plus"></i></span>
+                        <div class="portfolio__gallery__pic_hover"></div>
+                    </a>
+                    
+                    <a class="portfolio__gallery__ref">
+                        <img class="portfolio__gallery__pic" src="./img/pic1.png" alt="Picture 3">
+                        <span class="portfolio__gallery__icon"><i class="fa fa-plus"></i></span>
+                        <div class="portfolio__gallery__pic_hover"></div>
+                    </a>
+                
+                    <a class="portfolio__gallery__ref">
+                        <img class="portfolio__gallery__pic" src="./img/pic4.png" alt="Picture 4">
+                        <span class="portfolio__gallery__icon"><i class="fa fa-plus"></i></span>
+                        <div class="portfolio__gallery__pic_hover"></div>
+                    </a>
+                    <a class="portfolio__gallery__ref">
+                        <img class="portfolio__gallery__pic" src="./img/pic2.png" alt="Picture 5">
+                        <span class="portfolio__gallery__icon"><i class="fa fa-plus"></i></span>
+                        <div class="portfolio__gallery__pic_hover"></div>
+                    </a>
+                    <a class="portfolio__gallery__ref">
+                        <img class="portfolio__gallery__pic" src="./img/pic1.png" alt="Picture 6">
+                        <span class="portfolio__gallery__icon"><i class="fa fa-plus"></i></span>
+                        <div class="portfolio__gallery__pic_hover"></div>
+                    </a>
+                    <a class="portfolio__gallery__ref">
+                        <img class="portfolio__gallery__pic" src="./img/pic4.png" alt="Picture 7">
+                        <span class="portfolio__gallery__icon"><i class="fa fa-plus"></i></span>
+                        <div class="portfolio__gallery__pic_hover"></div>
+                    </a>
+                    <a class="portfolio__gallery__ref">
+                        <img class="portfolio__gallery__pic" src="./img/pic2.png" alt="Picture 8">
+                        <span class="portfolio__gallery__icon"><i class="fa fa-plus"></i></span>
+                        <div class="portfolio__gallery__pic_hover"></div>
+                    </a>        
+                </div>
+            </div>
+        </section>
+        
+        <!--VIDEO----->
+         <section class="video">
+            <div class="container container_video">
+                <div class="row video__row">
+                    <div class="video__text">
+                        <p class="video__text__name name"><span class="underline">Jus</span>t default Section</p>
+                        <div class="video__text__par">Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com. Soufflé cotton candy dessert candy ice cream wafer gummies cheesecake brownie.
+                            <br><br>
+                            Muffin chupa chups jelly beans sweet pie applicake. Croissant chocolate cake I love pudding. Ice cream I love powder pudding apple pie marshmallow. Cupcake marzipan oat cake bonbon I love candy canes toffee.
+                        </div> 
+                        <button class="video__button" type="button">Visit me</button> 
+                    </div>
+                
+                    <div class="video__player">
+                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/350763274" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+         </section>   
+        
+
+
+      <!--SOCIAL MEDIA-->
+
+        <section class="socialMedia">
+            <div class="container container_socialMedia">
+                <div class="row socialMedia__row">
+                <div class="socialMedia__name name"><span class="underline">Twi</span>tter</div>
+                <img class="socialMedia__icon" src="./img/twitter.png" alt="9999">
+                </div>
+                <div class="socialMedia__text">Unerdwear cookie liquorice. Cake donut cupcake lollipop soufflé candy. Chocolate oat cake<br> <span class="bold">@cheesecake</span> tootsie roll.</div>
+            </div>
+        </section>
+
+
+
+    <!---------BIG PHOTO--------->
+        <section class="info__wrapper">
+            <div class="container container_info">
+                <div class="info__name name"><span class="underline">Wh</span>o is john doe?</div>
+                    <div class="row info__row">
+                        <div class="info__left">
+                            <p class="info__text info__text_1">Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry gummi bears sesame snaps I love unerdwear.com. Soufflé cotton candy dessert candy ice cream wafer gummies cheesecake brownie.</p>
+                            <p class="info__text">Muffin chupa chups jelly beans sweet pie applicake. Croissant chocolate cake I love pudding. Ice cream I love powder pudding apple pie marshmallow. Cupcake marzipan oat cake bonbon I love candy canes toffee.</p>
+                        </div>
+                        <div class="info__right">
+                            <div class="info__text info__text_right">Pudding dessert jujubes tiramisu gingerbread croissant tiramisu applicake. Sesame snaps sugar plum cotton candy chocolate bonbon lemon drops candy canes cotton candy. Cake toffee pie bear claw pastry.</div>
+                            <ul class="info__icon">
+                                <li><a href="#" class="list-fb"><img src="./img/icon-twitter.png" alt=""></a></li>
+                                <li><a href="#" class="list-db"><img src="./img/icon-google.png" alt=""></a></li>
+                                <li><a href="#" class="list-tw"><img src="./img/icon-dribbble.png" alt=""></a></li>
+                                <li><a href="#" class="list-tw"><img src="./img/icon-coffee.png" alt=""></a></li>
+                              </ul>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        
+
+
+        <!--QUOTE-->
+        <section class="quote">
+            <div class="container container_quote">
+                <div class="row quote__row">
+                    <div class="quote__text">
+                        <div class="quote__name name"><span class="underline quote__name__underline">Tes</span>timonials</div>
+                        <p class="quote__text">Applicake chocolate cake wafer toffee pie soufflé wafer. Tart marshmallow wafer macaroon cheesecake jelly. Gingerbread cookie soufflé sweet roll sweet roll jelly-o.</p>
+                        <div class="quote__text_little">-Walter White</div>
+                    </div>
+                    <div class="quote__mark"><i class="fa fa-quote-right"></i></div>
+                </div>
+            </div>
+        </section>
+
+
+       
+        <!--FORM-->
+        <section class="footer">
+             <div class="container container_footer"> 
+                <div class="footer__row">
+                    <div class="footer__name name"><span class="underline">Con</span>tact</div>
+                    <form action="адрес получателя данных">
+                        <div class="form__firstBlock">
+                            <div class="form__input__firstBlock__wrapper">
+                            <p class="form__title">Full name<br><input class="form__input" type="text" name="full name"></p>
+                            <p  class="form__title">Email<br><input class="form__input" type="email" name="email"></p>
+                            </div>
+                            <div class="form__text">Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar gingerbread lollipop tart. Jujubes bear claw donut chupa chups.<br><br>             
+                            Linda Newman<br>
+                            W325 State Road 123<br>
+                            Mondovi, WI(Wisconsin) 98746-54321<br>
+                            (715) 946 - 1234
+                            </div>
+                        </div>    
+                        <p class="form__title">Message<br><textarea class="form__input form__input_textarea" name="message"></textarea></p>
+                        <button type="button" class="form__button">Send</button>
+                    </form>
+                </div>
+            </div>  
+        </div>
+        
+        <div class="footer__menu">
+            <div class="container">
+                <div class="row footer__menu__row">
+                    <ul class="footer__menu__list">
+                        <li class="footer__menu__list__item"><a class="footer__menu__list__item__ref" href="#">Home</a></li>
+                        <li class="footer__menu__list__item"><a class="footer__menu__list__item__ref" href="#">Servises</a></li>
+                        <li class="footer__menu__list__item"><a class="footer__menu__list__item__ref" href="#">Portfolio</a></li>
+                        <li class="footer__menu__list__item"><a class="footer__menu__list__item__ref" href="#">Contact</a></li>
+                    </ul>
+                    <div class="footer__menu__list__item_year">2013 ©</div>
+                </div>
+            </div>
+        </section>
+        
+
+    </body>
+    </html>
